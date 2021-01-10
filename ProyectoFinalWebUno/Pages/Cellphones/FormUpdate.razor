@@ -1,0 +1,9 @@
+﻿@page "/cellphone/update/{idCellphone}"
+<h3 class="alert alert-info text-center">You are going to update the cellphone's Model</h3>
+
+<UpdateCellphone idCellphone="@idCellphone" />
+
+@code{
+    [Parameter]
+    public string idCellphone { get; set; }
+}

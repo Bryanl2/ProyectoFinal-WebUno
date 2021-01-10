@@ -1,0 +1,15 @@
+C:\Users\usuario\Desktop\ProyectoFinalWebUno\DataAccess\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\usuario\Desktop\ProyectoFinalWebUno\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csprojAssemblyReference.cache
+C:\Users\usuario\Desktop\ProyectoFinalWebUno\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+C:\Users\usuario\Desktop\ProyectoFinalWebUno\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+C:\Users\usuario\Desktop\ProyectoFinalWebUno\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+C:\Users\usuario\Desktop\ProyectoFinalWebUno\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.json
+C:\Users\usuario\Desktop\ProyectoFinalWebUno\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.dev.json
+C:\Users\usuario\Desktop\ProyectoFinalWebUno\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\usuario\Desktop\ProyectoFinalWebUno\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\usuario\Desktop\ProyectoFinalWebUno\DataAccess\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\usuario\Desktop\ProyectoFinalWebUno\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\ProyectoFinalWebUno\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
+C:\Users\usuario\Desktop\ProyectoFinalWebUno\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\usuario\Desktop\ProyectoFinalWebUno\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\usuario\Desktop\ProyectoFinalWebUno\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.genruntimeconfig.cache

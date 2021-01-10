@@ -1,0 +1,37 @@
+﻿
+@using Entities
+@using Bussiness
+
+
+@inject NavigationManager NavManager
+
+<EditForm Model="oCellphone">
+    <div class="form-group">
+        <label>Name:</label>
+        <InputText class="form-control" @bind-Value="oCellphone.Model" />
+    </div>
+
+    <input type="button" class="btn btn-danger btn-block" value="Update Cellphone" @onclick="SaveCellphone" />
+
+</EditForm>
+
+
+
+@code {
+    [Parameter]
+    public string idCellphone { get; set; }
+
+    CellphoneEntity oCellphone = new CellphoneEntity();
+
+    private void SaveCellphone()
+    {
+
+        B_Cellphone.UpdateCellphone(oCellphone);
+        NavManager.NavigateTo("/");
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        oCellphone = B_Cellphone.GetCellphoneById(idCellphone);
+    }
+}

@@ -1,0 +1,14 @@
+C:\Users\usuario\Desktop\ProyectoFinalWebUno\Bussiness\bin\Debug\netcoreapp3.1\Bussiness.deps.json
+C:\Users\usuario\Desktop\ProyectoFinalWebUno\Bussiness\bin\Debug\netcoreapp3.1\Bussiness.dll
+C:\Users\usuario\Desktop\ProyectoFinalWebUno\Bussiness\bin\Debug\netcoreapp3.1\Bussiness.pdb
+C:\Users\usuario\Desktop\ProyectoFinalWebUno\Bussiness\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\usuario\Desktop\ProyectoFinalWebUno\Bussiness\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\usuario\Desktop\ProyectoFinalWebUno\Bussiness\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\usuario\Desktop\ProyectoFinalWebUno\Bussiness\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\usuario\Desktop\ProyectoFinalWebUno\Bussiness\obj\Debug\netcoreapp3.1\Bussiness.csprojAssemblyReference.cache
+C:\Users\usuario\Desktop\ProyectoFinalWebUno\Bussiness\obj\Debug\netcoreapp3.1\Bussiness.AssemblyInfoInputs.cache
+C:\Users\usuario\Desktop\ProyectoFinalWebUno\Bussiness\obj\Debug\netcoreapp3.1\Bussiness.AssemblyInfo.cs
+C:\Users\usuario\Desktop\ProyectoFinalWebUno\Bussiness\obj\Debug\netcoreapp3.1\Bussiness.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\ProyectoFinalWebUno\Bussiness\obj\Debug\netcoreapp3.1\Bussiness.csproj.CopyComplete
+C:\Users\usuario\Desktop\ProyectoFinalWebUno\Bussiness\obj\Debug\netcoreapp3.1\Bussiness.dll
+C:\Users\usuario\Desktop\ProyectoFinalWebUno\Bussiness\obj\Debug\netcoreapp3.1\Bussiness.pdb

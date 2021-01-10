@@ -1,0 +1,46 @@
+﻿@using Entities
+@using Bussiness
+<h3 class="alert alert-warning align-content-center text-center">CellphoneList</h3>
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Model</th>
+            <th scope="col">Brand</th>
+            <th scope="col">Color</th>
+            <th scope="col">Status</th>
+            <th scope="col">Changes</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var cellphone in lista)
+        {
+        <tr>
+            <td>@cellphone.Id</td>
+            <td>@cellphone.Model</td>
+            <td>@cellphone.Brand</td>
+            <td>@cellphone.Color</td>
+            <td>@cellphone.Status</td>
+            <td><a href="cellphone/update/@cellphone.Id" class="btn btn-info">Update</a></td>
+
+        </tr>
+        }
+    </tbody>
+</table>
+
+
+@code {
+    List<CellphoneEntity> lista = new List<CellphoneEntity>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        lista = B_Cellphone.CellphoneList();
+    }
+
+    private void updateCellphone(string id)
+    {
+        B_Cellphone.GetCellphoneById(id);
+    }
+}

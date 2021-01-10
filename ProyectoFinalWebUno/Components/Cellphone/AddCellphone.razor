@@ -1,0 +1,64 @@
+﻿@using Entities
+@using Bussiness
+
+<h3 class="alert alert-success text-center">AddCellphone</h3>
+
+@inject NavigationManager NavManager
+
+<EditForm Model="oCellphone">
+
+    <div class="form-group col-8" style="display:block;padding-left:25%;">
+
+        <div class="form-group col-12 ">
+            <label>Id: </label>
+            <InputText class="form-control" @bind-Value="oCellphone.Id"></InputText>
+
+        </div>
+
+        <div class="form-group col-12 ">
+            <label>Model: </label>
+            <InputText class="form-control" @bind-Value="oCellphone.Model"></InputText>
+
+        </div>
+
+        <div class="form-group col-12">
+            <label>Brand: </label>
+            <InputText class="form-control" @bind-Value="oCellphone.Brand"></InputText>
+
+        </div>
+
+        <div class="form-group col-12">
+            <label>Color: </label>
+            <InputText class="form-control" @bind-Value="oCellphone.Color"></InputText>
+
+        </div>
+
+        <div class="form-group col-12">
+            <label>Status: </label>
+            <InputSelect @bind-Value="oCellphone.Status" class="form-control">
+
+                <option value="">---Select---</option>
+                <option value="@statusActive">@statusActive</option>
+                <option value="@statusInactive">@statusInactive</option>
+            </InputSelect>
+        </div>
+
+        <input type="button" value="Add Celllphone" class="btn btn-danger btn-block"
+               @onclick="SaveCellphone" />
+
+    </div>
+
+</EditForm>
+
+@code {
+    string statusActive = "ACTIVO";
+    string statusInactive = "INACTIVO";
+    CellphoneEntity oCellphone = new CellphoneEntity();
+
+    private void SaveCellphone()
+    {
+        B_Cellphone.CreateCellphone(oCellphone);
+        NavManager.NavigateTo("/");
+    }
+
+}
